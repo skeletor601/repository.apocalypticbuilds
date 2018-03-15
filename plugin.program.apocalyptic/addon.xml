@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.apocalyptic" name="[B][COLORlime]Ap[COLORlimegreen]oc[COLORmediumseagreen]al[COLORmediumspringgreen]yp[COLORaqua]tic [COLORcyan]Wi[COLORturquoise]za[COLORdodgerblue]rd[/COLOR][/B]" version="0.0.1" provider-name="Apocalyptic">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">One Stop Shop to Get Infected!</summary>
+    <description lang="en">Apocalyptic Wizard allows you to get access to everything Apocalyptic.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
