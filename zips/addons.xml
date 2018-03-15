@@ -15,7 +15,7 @@
   </extension>
 </addon>
 
-<addon id="repository.apocalypticbuilds" name="[B][COLORlime]Apo[COLORlimegreen]cal[COLORmediumseagreen]ypt[COLORmediumspringgreen]ic [COLORaqua]Bui[COLORdarkturquoise]lds [COLORmediumskyblue]Re[COLORdodgerblue]po[/COLOR][/B]" version="0.0.3" provider-name="Team Apocalyptic">
+<addon id="repository.apocalypticbuilds" name="[B][COLORlime]Apo[COLORlimegreen]cal[COLORmediumseagreen]ypt[COLORmediumspringgreen]ic [COLORaqua]Bui[COLORdarkturquoise]lds [COLORdarkcyan]Re[COLORdodgerblue]po[/COLOR][/B]" version="0.0.4" provider-name="Team Apocalyptic">
 	<extension point="xbmc.addon.repository" name="Apocalyptic Repository">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
