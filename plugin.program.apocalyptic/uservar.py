@@ -12,7 +12,7 @@ BUILDFILE      = 'http://www.apocalypticbuilds.group/builds/autobuilds.txt'
 # 0 being every startup of kodi
 UPDATECHECK    = 0
 # Text File with apk info in it.
-APKFILE        = 'http://www.apocalypticbuilds.group/builds/apks.txt'
+APKFILE        = 'http://apocalypticbuilds.group/apk_list/apklist.txt'
 # Text File with Youtube Videos urls.  Leave as 'http://' to ignore
 YOUTUBETITLE   = ''
 YOUTUBEFILE    = 'http://'
