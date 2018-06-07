@@ -15,7 +15,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.program.breezz wizard" name="breezz wizard" version="1.0" provider-name="breezz">
+<addon id="plugin.program.breezz wizard" name="breezz wizard" version="1.1.0" provider-name="breezz">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
