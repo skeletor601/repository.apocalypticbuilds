@@ -30,7 +30,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.angelus" name="[B][COLORred]Angelus[/COLOR][/B]" version="1.6" provider-name="cobra team">
+<addon id="plugin.video.angelus" name="[B][COLORred]Angelus[/COLOR][/B]" version="1.7" provider-name="cobra team">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
