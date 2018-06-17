@@ -25,11 +25,13 @@ addon_id = xbmcaddon.Addon().getAddonInfo('id')
 ownAddon = xbmcaddon.Addon(id=addon_id)
 enable_installa = ownAddon.getSetting('dlimage')
 enable_newswin = ownAddon.getSetting('news_win')
-root_xml_url = 'http://apocalypticbuilds.group/eargasm/main.xml'
-__builtin__.tvdb_api_key = 'AGF2DXFWO8JK7XS4'
-__builtin__.tmdb_api_key = 'b894d6896fc1391e851317bafdaaf1d9'
-__builtin__.trakt_client_id = '135d906f35c688d275051e5c45dd11352941ee1bd4336d0882c5e53b8e0e1fb1'
-__builtin__.trakt_client_secret = '29229786d9a0780e5c0ab90b8d0faffb0a2b8fef1e8e7a8f5dd86a46cf641ae6'
+root_xml_url = ownAddon.getSetting('root_xml')
+if not 'file:' in root_xml_url and not 'http' in root_xml_url:
+    root_xml_url = root_xml_url.decode('base64')
+__builtin__.tvdb_api_key = ownAddon.getSetting('tvdb_api_key')
+__builtin__.tmdb_api_key = ownAddon.getSetting('tmdb_api_key')
+__builtin__.trakt_client_id = ownAddon.getSetting('trakt_api_client_id')
+__builtin__.trakt_client_secret = ownAddon.getSetting('trakt_api_client_secret')
 __builtin__.search_db_location = ownAddon.getSetting('search_db_location')
 
 import os
