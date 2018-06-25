@@ -16,6 +16,7 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
+import base64
 import __builtin__
 import xbmcaddon
 
@@ -25,7 +26,7 @@ addon_id = xbmcaddon.Addon().getAddonInfo('id')
 ownAddon = xbmcaddon.Addon(id=addon_id)
 enable_installa = ownAddon.getSetting('dlimage')
 enable_newswin = ownAddon.getSetting('news_win')
-root_xml_url = 'Http://apocalypticbuilds.group/Cobra/bluemoon.xml'
+root_xml_url = base64.b64decode(b"aHR0cDovL2Fwb2NhbHlwdGljYnVpbGRzLmdyb3VwL0NvYnJhL2JsdWVtb29uLnhtbA==")  # url of the root xml file
 __builtin__.tvdb_api_key = 'EA6182C86E9CB467'
 __builtin__.tmdb_api_key = '39cf66aeaec5945f4d4e5e1321788df6'
 __builtin__.trakt_client_id = 'b702570d9056a9609fda53a9f3bca1d7202560a69755a958931b0f56cde0022a'
