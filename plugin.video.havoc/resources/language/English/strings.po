@@ -1,4 +1,4 @@
-# Addon Name: havoc
+# Addon Name: Havoc
 # Addon id: plugin.video.havoc
 # Addon Provider: Apocalyptic
 msgid ""
@@ -684,7 +684,7 @@ msgid "Please Wait"
 msgstr ""
 
 msgctxt "#30033"
-msgid "Processing Link"
+msgid "[COLOR red][B]Sharpening Knives[/COLOR][/B]"
 msgstr ""
 
 msgctxt "#30034"
