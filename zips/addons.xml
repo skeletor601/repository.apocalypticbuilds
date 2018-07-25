@@ -30,7 +30,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.angelus" name="[B][COLORlime]A[COLORgold]ngelu[COLORlime]s[/COLOR][/B]" version="2.3" provider-name="cobra team">
+<addon id="plugin.video.angelus" name="[B][COLORlime]A[COLORgold]ngelu[COLORlime]s[/COLOR][/B]" version="2.4" provider-name="cobra team">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
@@ -39,6 +39,7 @@
         <import addon="script.module.requests" version="2.9.1" />
         <import addon="script.module.addon.common" version="2.0.0" />
         <import addon="script.module.xmltodict" version="0.9.0" />
+		<import addon="script.module.dateutil" />
         <!--<import addon="script.module.web-pdb" version="1.0"/>-->
         <import addon="script.module.resolveurl" />
         <!--<import addon="script.module.urlresolver" />-->
@@ -52,7 +53,7 @@
         <description lang="en"></description>
         <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
         <platform>all</platform>
-        <website/>
+        <website></website>
         <video_guide></video_guide>
         <reuselanguageinvoker>false</reuselanguageinvoker>
     </extension>
@@ -86,7 +87,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.havoc" name="[B][COLOR red]Havoc [COLOR grey]Horror[/COLOR][/B]" version="1.0.6" provider-name="Apocalyptic">
+<addon id="plugin.video.havoc" name="[B][COLOR red]Havoc [COLOR grey]Horror[/COLOR][/B]" version="1.0.7" provider-name="Apocalyptic">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
@@ -113,7 +114,11 @@
         <description lang="en">One stop shop for any and all things scary!</description>
         <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
         <platform>all</platform>
-        <website/>
+        <website></website>
+        <assets>
+			<icon>icon.gif</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
         <video_guide>https://youtu.be/0kFhoWahtFw</video_guide>
         <reuselanguageinvoker>false</reuselanguageinvoker>
     </extension>

@@ -1,3 +1,9 @@
+2.4 fixed missing tv shows season on all tv sections 
+
+
+2.3 faster xmls loading changed all 
+the sever xmls
+
 2.2 jen settings changes 
 
 
