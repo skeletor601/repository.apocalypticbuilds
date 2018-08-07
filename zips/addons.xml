@@ -44,6 +44,9 @@
 		<import addon="script.module.futures" version="1.0.0" />
 		<import addon="script.module.certifi" version="1.0.0" />
 		<import addon="script.module.idna" version="1.0.0" />
+		<import addon="script.module.requests" version="2.9.1" />
+        <import addon="script.module.thetvdb" />
+        <import addon="script.module.metadatautils" />
         <!--<import addon="script.module.web-pdb" version="1.0"/>-->
         <import addon="script.module.resolveurl" />
         <!--<import addon="script.module.urlresolver" />-->
