@@ -30,7 +30,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.angelus" name="[B][COLORlime]A[COLORgold]ngelu[COLORlime]s[/COLOR][/B]" version="2.4" provider-name="cobra team">
+<addon id="plugin.video.angelus" name="[B][COLORlime]A[COLORgold]ngelu[COLORlime]s[/COLOR][/B]" version="2.5" provider-name="cobra team">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
@@ -40,6 +40,10 @@
         <import addon="script.module.addon.common" version="2.0.0" />
         <import addon="script.module.xmltodict" version="0.9.0" />
 		<import addon="script.module.dateutil" />
+		<import addon="script.module.chardet" version="1.0.0" />
+		<import addon="script.module.futures" version="1.0.0" />
+		<import addon="script.module.certifi" version="1.0.0" />
+		<import addon="script.module.idna" version="1.0.0" />
         <!--<import addon="script.module.web-pdb" version="1.0"/>-->
         <import addon="script.module.resolveurl" />
         <!--<import addon="script.module.urlresolver" />-->
