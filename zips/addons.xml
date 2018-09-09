@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.program.apocalyptic" name="[B][COLORlime]Ap[COLORlimegreen]oc[COLORmediumseagreen]al[COLORmediumspringgreen]yp[COLORaqua]tic [COLORcyan]Wi[COLORturquoise]za[COLORdodgerblue]rd[/COLOR][/B]" version="0.0.4" provider-name="Apocalyptic">
+<addon id="plugin.program.apocalyptic" name="[B][COLORlime]Ap[COLORlimegreen]oc[COLORmediumseagreen]al[COLORmediumspringgreen]yp[COLORaqua]tic [COLORcyan]Wi[COLORturquoise]za[COLORdodgerblue]rd[/COLOR][/B]" version="0.0.5" provider-name="Apocalyptic">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>

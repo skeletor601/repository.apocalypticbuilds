@@ -7,12 +7,12 @@ ADDON_ID       = xbmcaddon.Addon().getAddonInfo('id')
 ADDONTITLE     = 'apocalyptic Wizard'
 EXCLUDES       = [ADDON_ID]
 # Text File with build info in it.
-BUILDFILE      = 'http://www.apocalypticbuilds.group/builds/autobuilds.txt'
+BUILDFILE      = 'http://wizard.apocalypticbuilds.group/autobuilds.txt'
 # How often you would list it to check for build updates in days
 # 0 being every startup of kodi
 UPDATECHECK    = 0
 # Text File with apk info in it.
-APKFILE        = 'http://apocalypticbuilds.group/apk_list/apklist.txt'
+APKFILE        = 'http://wizard.apocalypticbuilds.group/apklist.txt'
 # Text File with Youtube Videos urls.  Leave as 'http://' to ignore
 YOUTUBETITLE   = ''
 YOUTUBEFILE    = 'http://'
