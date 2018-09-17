@@ -132,7 +132,7 @@
 </addon>
 
 <addon id="plugin.video.insomniac"
-version="1.1.3"
+version="1.1.4"
 name="[COLORcyan]In[COLORgrey]som[COLORcyan]ni[COLORgrey]ac[/COLOR]"
 provider-name="Skeletor, and Co.">
 <requires>
