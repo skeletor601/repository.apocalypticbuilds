@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.insomniac"
+version="1.1.3"
+name="[COLORcyan]In[COLORgrey]som[COLORcyan]ni[COLORgrey]ac[/COLOR]"
+provider-name="Skeletor, and Co.">
+<requires>
+  <import addon="xbmc.python" version="2.24.0"/>
+  <import addon="script.module.muckys.common" version="1.3.5"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">[COLORcyan] 24/7 Viewing[/COLOR]</summary>
+  <description>Nocturnal Medicine
+  </description>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>    
+  </assets>
+</extension>
+</addon>
+
